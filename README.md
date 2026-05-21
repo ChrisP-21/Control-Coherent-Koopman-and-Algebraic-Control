@@ -17,7 +17,7 @@ Software requirements:
 To help you navigate this project, the most important files are listed below:
 - mainCartPend.m: the main file that handles the Koopman modeling and prediction accuracy tests for the cart pendulum example. This file computes models through Direct Encoding (DE), EDMD, and CCK and compares them with respect to prediction accuracy.
 - testCartPendAlgCon.m: the file that designs an H-infinity controller for the CCK model of the actuator-augmented cart pendulum to then make an approximate inverse of the CCK model. Essential for testCartPendAlgConSim.slx.
-- testCartPendAlgConSim.slx: the Simulink file that compares the combination of CCK and algebraic control to backstepping as both strategies are applied to the actuator-augmented cart pendulum. Go to Model Properties-->Callbacks to see the cart pendulum and controller parameter settings in InitFcn and simulation post-processing in StopFcn.
+- testCartPendAlgConSim.slx: the Simulink file that compares the combination of CCK and algebraic control to backstepping as both strategies are applied to the actuator-augmented cart pendulum. Go to Model Properties\Callbacks to see the cart pendulum and controller parameter settings in InitFcn and simulation post-processing in StopFcn.
 
 
 The rest of the files are not as important, but serve as helper functions for the following purposes:
