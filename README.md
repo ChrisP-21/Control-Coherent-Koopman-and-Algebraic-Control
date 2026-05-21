@@ -30,4 +30,5 @@ The rest of the files are not as important, but serve as helper functions for th
 - cartPendBackstep.m: designs a backstepping controller for the actuator-augmented cart pendulum.
 
 References
+
 HyunGwang Cho (2026). Progress bar (cli, gui, parfor) (https://www.mathworks.com/matlabcentral/fileexchange/121363-progress-bar-cli-gui-parfor), MATLAB Central File Exchange.
